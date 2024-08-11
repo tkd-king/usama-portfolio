@@ -1,9 +1,9 @@
-import Image from "next/image";
+"use client"
+
+import HomeTemp from "@/components/templates/Home";
 
 export default function Home() {
   return (
-    <div>
-      hello
-    </div>
+      <HomeTemp />
   );
 }
