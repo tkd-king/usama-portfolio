@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { Children } from "react";
 
-const Container = ( {children} ) => {
+const Container = ({ Children }) => {
   return (
-    <div className=' w-[100%] px-[9%] border-box ' > {children} </div>
-  )
-}
+    <div className=" w-[100%] px-[9%] border-box ">
+      {" "}
+      {Children}{" "}
+    </div>
+  );
+};
 
-export default Container
+export default Container;
