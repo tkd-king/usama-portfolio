@@ -1,8 +1,7 @@
 import React from 'react'
 import SwiperCumponent from '../molecules/Swiper.molecules'
 import Headings from '../atoms/Headings'
-import Container from '../atoms/Container'
-
+  
 export default function StoriesCustomorSection() {
   return (
    
