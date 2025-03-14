@@ -1,10 +1,11 @@
-import React, { Children } from "react";
+import React  from "react";
 
-const Container = ({ Children }) => {
+const Container = ({ children }) => {
   return (
     <div className=" w-[100%] px-[9%] border-box ">
       {" "}
-      {Children}{" "}
+      {children}
+      {" "}
     </div>
   );
 };

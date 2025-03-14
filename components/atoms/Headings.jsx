@@ -7,28 +7,28 @@ const Headings = ({ level, text }) => {
   switch (level) {
     case "1":
       HeadingStyle =
-        " capitalize text-[65px] leading-[78px] max font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8750F7] to-[#2A1454]  ";
+        " capitalize text-[45px] lg:text-[65px] leading-[58px] md:leading-[78px] max font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8750F7] to-[#2A1454]  ";
       break;
     case "9":
       HeadingStyle = " text-[60px] font-bold text-[#8750F7] leading-[70px] ";
       break;
     case "2":
       HeadingStyle =
-        " capitalize text-[45px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8750F7] to-[#2A1454]  ";
+        " capitalize text-[23px] md:text-[45px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8750F7] to-[#2A1454]  ";
       break;
     case "3":
-      HeadingStyle = " capitalize text-[36px] font-bold text-[#2A1454]  ";
+      HeadingStyle = " capitalize text-[26px] lg:text-[36px] font-bold text-[#2A1454]  ";
       break;
     case "4":
       HeadingStyle =
-        " capitalize text-[25px] font-bold text-[#2A1454] leading-[30px] ";
+        " capitalize text-[12px] md:text-[25px] font-bold text-[#2A1454] leading-[15px] md:leading-[30px] ";
       break;
     case "5":
-      HeadingStyle = " capitalize text-[20px] font-light text-[#140C1C] ";
+      HeadingStyle = " capitalize text-[10px] md:text-[20px] font-light text-[#140C1C] ";
       break;
     case "6":
       HeadingStyle =
-        " capitalize text-[20px] font-extrabold text-[#8750F7] leading-[30px] ";
+        " capitalize text-[12px] md:text-[20px] font-extrabold text-[#8750F7] leading-[15px] md:leading-[30px] ";
       break;
     case "7":
       HeadingStyle =
@@ -36,11 +36,11 @@ const Headings = ({ level, text }) => {
       break;
     case "8":
       HeadingStyle =
-        " capitalize text-[16px] font-normal text-[#8750F7] leading-[24px] ";
+        " capitalize text-[12px] md:text-[16px] font-normal text-[#8750F7] leading-[24px] ";
       break;
     case "10":
       HeadingStyle =
-        " capitalize text-[16px] font-normal text-[#140C1C] leading-[24px] ";
+        " capitalize text-[12px] md:text-[16px] font-normal text-[#140C1C] leading-[14px] mt-2 md:mt-0 md:leading-[24px] ";
       break;
     case "11":
       HeadingStyle =

@@ -9,20 +9,30 @@ import { GrGithub } from "react-icons/gr";
 
 const BannerleftSec = () => {
     return (
-        <div className=' w-[49%] flex flex-col gap-[40px] ' >
-            <div className="flex flex-col gap-[15px]">
-                <Headings level='3' text='I am Gerold' />
-                <Headings level='1' text='Web Developer + UX Designer' />
-                <Headings level='5' text='I break down complex user experinece problems to create integritiy focussed solutions that connect billions of people' />
-            </div>
-            <div className="buttons flex items-center gap-[20px] ">
-                <DownloadButton />
-                <SocialIcon href='#' icon={<FaFacebookF />} />
-                <SocialIcon href='#' icon={<FaLinkedinIn />} />
-                <SocialIcon href='#' icon={<IoBasketballOutline />} />
-                <SocialIcon href='#' icon={<GrGithub />} />
-            </div>
+        <div className="w-full md:w-[49%] flex flex-col gap-[20px] text-center md:text-left">
+        <div className="flex flex-col gap-[10px]" >
+          <Headings level="3" text="I am Usama" />
+          <Headings level="1" text="Web Developer + UX Designer" />
+          <Headings
+            level="5"
+            text="I break down complex user experience problems to create integrity-focused solutions that connect billions of people"
+          />
         </div>
+        {/* Buttons */}
+        <div className="buttons flex justify-center md:justify-start items-center gap-[15px]">
+          <DownloadButton />
+          <SocialIcon
+            href="https://www.facebook.com/profile.php?id=61557600677299"
+            icon={<FaFacebookF />}
+          />
+          <SocialIcon
+            href="https://www.linkedin.com/in/muhammad-usama00"
+            icon={<FaLinkedinIn />}
+          />
+          <SocialIcon href="#" icon={<IoBasketballOutline />} />
+          <SocialIcon href="https://github.com/tkd-king" icon={<GrGithub />} />
+        </div>
+      </div>
     )
 }
 

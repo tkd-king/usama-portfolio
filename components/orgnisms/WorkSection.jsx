@@ -17,7 +17,7 @@ function WorkSection() {
     };
 
     return ( 
-        <div className=" flex flex-col items-center  pt-[70px] gap-[30px] " >
+        <div className=" flex flex-col items-center  pt-[70px] gap-[30px] " id="works" >
             <Headings level='2' text="my recent works" />
             <div className=" work-section items-center mb-[70px]  gap-[50px] flex flex-col    ">
                 <WorkButtons
@@ -26,7 +26,7 @@ function WorkSection() {
                     branding={() => handleTabChange("branding")}
                     ui={() => handleTabChange("ui")}
                 />
-                <div className="    branding ">
+                <div className=" branding ">
                     <div >{activeTab === "all" && <All />}</div>
                     <div>{activeTab === "app" && <App />}</div>
                     <div >{activeTab === "branding" && <Branding />}</div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function SwiperCard({srcl, srcr,  text1, text2, text3}) {
   return (
     <div className=' flex flex-col gap-[80px] rounded-lg p-[20px] mb-[50px] w-[300px] h-[416.78px] overflow-hidden bg-white'>
-      <div className="flex items-center justify-between " >
+      <div className="flex items-start justify-between " >
       <Image
       src={srcl}
       width={100}

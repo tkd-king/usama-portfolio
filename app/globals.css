@@ -2,8 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes upDown {
+  0%, 100% {
+    transform: translateY(0);
+    rotate:4.29deg ;
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
 
-
+.moving-box {
+  rotate:4.29deg clockwise;
+  animation: upDown 2s infinite ease-in-out;
+}
 
 
 /* banner */
@@ -16,7 +34,6 @@
 
 
 .outer-banner::before {
-
   content: "  ";
   width: 100px;
   height: 100px;
@@ -51,6 +68,7 @@
   left: 0%;
   z-index: -1;
 }
+
 
 .banner-right {
   box-sizing: border-box;
